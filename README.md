@@ -1,35 +1,69 @@
-# api-node-express
+# Projeto TaskList [![My Skills](https://skillicons.dev/icons?i=js,nodejs,npm,vscode,mongodb,express,sequelize,postgres)](https://skillicons.dev)
 
-check insomnia
-check node
-check npm
-check curl
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-sudo apt-get update && sudo apt-get install yarn
+<p align="center">
+  <img src="images/insominia.png" alt="animated" />
+</p>
+
+***Projeto realizado com o apoio do material***[Curso completo de APIs com Nodejs, Express + MongoDB, SQL](https://www.udemy.com/share/102iPC3@gr-WJSyyttBBDrgOWeOtp_sFqAmr22LgBQOnc9VbeW1D7K1RpOLrijJM_VbWJ-g=/)
+
+## 💻 Pré requisitos
+- 🎯 VS Code
+- 🎯 NodeJs && NPM
+- 🎯 Insomnia
+- 🎯 Curl
+- 🎯 Yarn
+- 🎯 Express
+- 🎯 Nodemon
+- 🎯 PostgreSQL && Postbird
+
+
+## 🔧 Alguns comandos de instalação, criação e execução utilizados:
+
+- Instalar yarn
+```
 sudo apt-get install yarn
-check yarn (yarn --version)
-instalar express (yarn add express)
-instalar nodemon (yarn add nodemon sucrase -D)
-criar pasta src
-dentro de src cria file app.js, server.js, routes.js
-na raiz do projeto cria file nodemon.json
-iniciar servidor (yarn dev)
-instalar postgreSQL
-instalar pgadmin4-web
-http://127.0.0.1/pgadmin4
-senha: loreadmin
-criar database usando user postgres
-instalar postbird (sudo snap install postbird) user postgres
-instalar sequelize (yarn add sequelize, yarn add sequelize-cli -D)
-yarn add pg pg-hstore
-criar migration (yarn sequelize migration:create --name=create-users)
-rodar última migrate criada (yarn sequelize db:migrate)
-desfazer última migrate (yarn sequelize db:migrate:undo)
-instalar cripto de senha (yarn add bcrypt js)
-instalar jwt (yarn add jsonwebtoken)
-https://www.md5online.org/md5-encrypt.html
-instalar yup -validações (yarn add yup)
-
-adicionando CORS
+```
+- Instalar express
+```
+yarn add express
+```
+- Instalar nodemon
+```
+yarn add nodemon
+```
+- Iniciar servidor
+```
+yarn dev
+```
+- Instalar postbird
+```
+sudo snap install postbird
+```
+- Instalar sequelize
+```
+yarn add sequelize-cli -D
+```
+- Criar migration
+```
+yarn sequelize migration:create --name=create-nomeMigration
+```
+- Rodar última migrate criada
+```
+yarn sequelize db:migrate
+```
+- Instalar bcrypt
+```
+yarn add bcrypt
+```
+- Instalar jwt
+```
+yarn add jsonwebtoken
+```
+- Instalar yup
+```
+yarn add yup
+```
+- Adicionar CORS
+```
 yarn add cors
+```
